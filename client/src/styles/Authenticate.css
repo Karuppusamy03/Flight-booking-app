@@ -1,0 +1,87 @@
+/* Full page style for centering the form */
+.AuthenticatePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+    padding: 0;
+}
+
+/* Form container with updated design */
+.authForm {
+    background-color: #ffffff; /* solid white background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 350px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Heading styling */
+.authForm h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333333; /* Darker text for readability */
+    font-weight: 600;
+}
+
+/* Form input styles */
+.authForm .form-group {
+    margin-bottom: 20px;
+}
+
+.authForm .form-control {
+    padding: 12px 15px;
+    font-size: 1rem;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+}
+
+.authForm .form-control:focus {
+    border-color: #2575fc; /* Highlight the border on focus */
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.3);
+}
+
+/* Button styles */
+.authForm button {
+    background-color: #2575fc;
+    color: #ffffff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.authForm button:hover {
+    background-color: #6a11cb; /* Hover effect for button */
+}
+
+/* Footer with the "Sign Up" link */
+.authForm-footer {
+    margin-top: 20px;
+}
+
+.authForm-footer p {
+    color: #666666; /* Lighter text for footer */
+    font-size: 0.9rem;
+}
+
+.authForm-footer p span {
+    color: #2575fc;
+    cursor: pointer;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.authForm-footer p span:hover {
+    color: #6a11cb; /* Hover effect for Sign Up link */
+}
