@@ -71,7 +71,7 @@ Follow these steps to set up the application on your local machine
 ### 1. Clone the Repository
 
 ```bash
-    git clone https://github.com/
+    git clone https://github.com/Karuppusamy03/Flight-booking-app.git
 ```
 
 ### 2. Navigate to the cloned repository
