@@ -21,12 +21,16 @@ const PORT = 6001;
 //     }
 // ).then(()=>{
 
-    mongoose.connect('mongodb://localhost:27017/FlightBookingMERN', { 
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-      }).then(() => {
-        console.log('MongoDB connected!');
-      
+    // Your MongoDB Atlas connection string
+    const mongoURI = 'mongodb+srv://karuppusamykanesh1503:Pass%40123@cluster0.mbe0l.mongodb.net/FlightBooking?retryWrites=true&w=majority&appName=Cluster0';
+
+    mongoose.connect(mongoURI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    })
+    .then(() => {
+    console.log('MongoDB connected!');
+    
 
     // All the client-server activites
 
